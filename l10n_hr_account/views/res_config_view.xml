@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- glavni izbornik za sve reporte: PDV, JOPPD, INTRASTAT... -->
+        <menuitem id="menu_pdv_reports"
+                  name="Croatia reports"
+                  parent="account.menu_finance_reports"
+                  groups="account.group_account_manager"
+                  sequence="1"/>
+        <menuitem id="menu_finance_configuration_croatia"
+                  name="Hrvatska - postavke"
+                  parent="account.menu_finance_configuration"
+                  sequence="99"/>
+
+        <record id="view_account_config_settings_l10n_hr" model="ir.ui.view">
+            <field name="name">l10n_hr account settings</field>
+            <field name="model">account.config.settings</field>
+            <field name="inherit_id" ref="account.view_account_config_settings"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[3]" position="before">
+                    <group string="Croatia specific settings"
+                           attrs="{'invisible': [('croatia','=',False)]}">
+                        <field name="croatia" invisible="1"/>
+                        <field name="module_l10n_hr_account_fiskal"/>
+                        <field name="module_account_reference"/>
+                        <!--
+                        <field name="module_l10n_hr_vat"/>
+                        <field name="module_l10n_hr_joppd"/>
+                        -->
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
