@@ -1,0 +1,10 @@
+# fiskpy depends:
+signxml==2.2.3
+pyCrypto==2.6.1
+
+#odoo crypto
+M2Crypto==0.26.2
+
+# little extra
+tzlocal==1.3
+
