@@ -25,20 +25,16 @@ class CroatiaXMLMixin(models.AbstractModel):
         """
         if not phone:
             return False
-
         for r in [" ", "/", ".", ",", "(", ")"]:
             phone = phone.replace(r, "")
-
         if phone.startswith('00'):
             phone = '+' + phone[2:]
         if not phone.startswith('+') and phone.startswith('385'):
             phone = '+' + phone
-
         if 14 < len(phone) < 7 or not phone.startswith('+385'):
             raise ValidationError('Unešeni broj telefona/faxa : %s nije ispravan\n'
                                   'Očekivani format je +385xxxxxxxx, \n'
                                   '(dozvoljno je korištenje znakova za razdvajanje i grupiranje (-/) i razmaka' % phone)
-
         return phone
 
     def get_company_data(self, report_type):

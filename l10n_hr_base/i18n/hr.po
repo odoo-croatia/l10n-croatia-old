@@ -68,7 +68,7 @@ msgstr "Broj obveze mirovinskog osiguranja"
 #. module: l10n_hr_base
 #: sql_constraint:res.company:0
 msgid "The company name must be unique !"
-msgstr "Naziv poduzeća mora biti jedinstvan !"
+msgstr "Naziv poduzeća mora biti jedinstvan!"
 
 #. module: l10n_hr_base
 #: field:l10n_hr_base.nkd,name:0
@@ -96,11 +96,6 @@ msgid "Porezna uprava"
 msgstr "Porezna uprava"
 
 #. module: l10n_hr_base
-#: help:res.company,racun_obrazac:0
-msgid "Upišite \"R-1\" ili \"R-2\" "
-msgstr "Upišite \"R-1\" ili \"R-2\" "
-
-#. module: l10n_hr_base
 #: field:res.company,l10n_hr_base_nkd_id:0
 msgid "NKD"
 msgstr "NKD"
@@ -121,24 +116,9 @@ msgid "Maticni broj"
 msgstr "Maticni broj"
 
 #. module: l10n_hr_base
-#: view:l10n_hr_base.nkd:0
-msgid "NKD - odabir"
-msgstr "NKD - odabir"
-
-#. module: l10n_hr_base
 #: field:res.company,br_obveze_zdravstveno:0
 msgid "Br. obveze zdravstveno"
 msgstr "Br. obveze zdravstveno"
-
-#. module: storm_intrastat
-#: field:res.country,eu_member:0
-msgid "EU Member"
-msgstr "EU članica"
-
-#. module: storm_intrastat
-#: field:res.country,eu_country_code:0
-msgid "EU Country Code"
-msgstr "EU šifra države"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_language_export_state

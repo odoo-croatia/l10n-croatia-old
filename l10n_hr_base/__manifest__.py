@@ -8,13 +8,10 @@
     "version": "1.0.0",
     "application": False,
 
-    "author": "odoo hrvatska",
+    "author": "Odoo Hrvatska",
     "support": "support@odoo-hrvatska.org",
     "website": "http://odoo-hrvatska.org",
     "licence": "LGPL-3",
-    #"price" : 20.00,   #-> only if module if sold!
-    #"currency": "EUR",
-
     "depends": [
         "report"
     ],
@@ -29,10 +26,7 @@
         "data/res_bank_data.xml",
         "views/res_company_view.xml",
         "views/res_bank_view.xml",
-        # NKD
-        #"views/l10n_hr_nkd_view.xml",
         "data/localization_settings.xml",
-        #"security/ir.model.access.csv",
     ],
     "qweb": [],
     "demo": [],
