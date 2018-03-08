@@ -1,0 +1,494 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_hr_account_fiskal
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-24 08:24+0000\n"
+"PO-Revision-Date: 2017-02-24 10:24+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.jir_zki
+msgid ""
+"<br/>\n"
+"                <span>JIR : </span>"
+msgstr ""
+"<br/>\n"
+"                <span>JIR : </span>"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.jir_zki
+msgid "<span>ZKI : </span>"
+msgstr "<span>ZKI : </span>"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model,name:l10n_hr_account_fiskal.model_account_move
+msgid "Account Entry"
+msgstr "Temeljnica"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_prostor_form_inherit
+msgid "Adresa"
+msgstr "Adresa"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_res_company_fiskal_cert_id
+msgid "Certifikat za fiskalizaciju"
+msgstr "Certifikat za fiskalizaciju"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model,name:l10n_hr_account_fiskal.model_res_company
+msgid "Companies"
+msgstr "Tvrtke"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_company_id
+msgid "Company"
+msgstr "Tvrtka"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_create_date
+msgid "Created on"
+msgstr "Datum kreiranja"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model,name:l10n_hr_account_fiskal.model_crypto_certificate
+msgid "Cryptography certificates"
+msgstr "Certifikati"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_prostor_datum_primjene
+msgid "Datum"
+msgstr "Datum"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,help:l10n_hr_account_fiskal.field_fiskal_prostor_datum_primjene
+msgid "Datum od kojeg vrijede navedeni podaci"
+msgstr "Datum od kojeg vrijede navedeni podaci"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiscal_invoice_mixin_display_name
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_display_name
+msgid "Display Name"
+msgstr "Naziv za prikaz"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_prostor_kbr_dodatak
+msgid "Dodatak kucnom broju"
+msgstr "Dodatak kucnom broju"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_greska
+msgid "Error"
+msgstr "Greška"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_log_form
+msgid "Evidencija prometa"
+msgstr "Evidencija prometa"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model,name:l10n_hr_account_fiskal.model_fiskal_log
+msgid "Fiskal messages log"
+msgstr "Fiskal messages log"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_account_invoice_fiscal_form
+msgid "Fiskalizacija"
+msgstr "Fiskalizacija"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,help:l10n_hr_account_fiskal.field_account_journal_fiscal_active
+msgid "Fiskalizacija aktivna za ovaj dnevnik"
+msgstr "Fiskalizacija aktivna za ovaj dnevnik"
+
+#. module: l10n_hr_account_fiskal
+#: selection:fiskal.log,type:0
+msgid "Fiskalizacija racuna"
+msgstr "Fiskalizacija racuna"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,help:l10n_hr_account_fiskal.field_account_invoice_fiskal_user_id
+#: model:ir.model.fields,help:l10n_hr_account_fiskal.field_fiscal_invoice_mixin_fiskal_user_id
+msgid "Fiskalizacija. Osoba koja je potvrdila racun"
+msgstr "Fiskalizacija. Osoba koja je potvrdila racun"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_account_invoice_fiscal_form
+msgid "Fiskaliziraj"
+msgstr "Fiskaliziraj"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_account_journal_fiscal_active
+msgid "Fiskaliziranje računa"
+msgstr "Fiskaliziranje računa"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_account_invoice_fiskal_user_id
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiscal_invoice_mixin_fiskal_user_id
+msgid "Fiskalizirao"
+msgstr "Fiskalizirao"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_account_tax_hr_fiskal_type
+msgid "Fiskalni tip poreza"
+msgstr "Fiskalni tip poreza"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_prostor_form_inherit
+msgid "Fizička adresa prostora"
+msgstr "Fizička adresa prostora"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiscal_invoice_mixin_id
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model,name:l10n_hr_account_fiskal.model_account_invoice
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_invoice_id
+msgid "Invoice"
+msgstr "Račun"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_account_invoice_jir
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiscal_invoice_mixin_jir
+msgid "JIR"
+msgstr "JIR"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model,name:l10n_hr_account_fiskal.model_account_journal
+msgid "Journal"
+msgstr "Dnevnik"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_prostor_form_inherit
+msgid "Komunikacija"
+msgstr "Komunikacija"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_prostor_form_inherit
+msgid ""
+"Koristiti samo u slucaju kad se zatvara poslovni prostor.           Nakon "
+"zatvaranja poslovnog prostora ne smiju se vise prijavljivati "
+"racuni           sa oznakom ovog poslovnog prostora"
+msgstr ""
+"Koristiti samo u slucaju kad se zatvara poslovni prostor.           Nakon "
+"zatvaranja poslovnog prostora ne smiju se vise prijavljivati "
+"racuni           sa oznakom ovog poslovnog prostora"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_prostor_kbr
+msgid "Kucni broj"
+msgstr "Kucni broj"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiscal_invoice_mixin___last_update
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log___last_update
+msgid "Last Modified on"
+msgstr "Zadnja promjena"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_write_uid
+msgid "Last Updated by"
+msgstr "Promijenio"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_write_date
+msgid "Last Updated on"
+msgstr "Vrijeme promjene"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_prostor_fiskal_log_ids
+msgid "Logovi poruka"
+msgstr "Logovi poruka"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,help:l10n_hr_account_fiskal.field_fiskal_prostor_fiskal_log_ids
+msgid "Logovi poslanih poruka prema poreznoj upravi"
+msgstr "Logovi poslanih poruka prema poreznoj upravi"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_type
+msgid "Message type"
+msgstr "Tip poruke"
+
+#. module: l10n_hr_account_fiskal
+#: selection:account.tax,hr_fiskal_type:0
+msgid "Naknade (npr. ambalaza)"
+msgstr "Naknade (npr. ambalaza)"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_prostor_naselje
+msgid "Naselje"
+msgstr "Naselje"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_prostor_opcina
+msgid "Naziv opcine ili grada"
+msgstr "Naziv opcine ili grada"
+
+#. module: l10n_hr_account_fiskal
+#: selection:account.tax,hr_fiskal_type:0
+msgid "Ne podlijeze oporezivanju"
+msgstr "Ne podlijeze oporezivanju"
+
+#. module: l10n_hr_account_fiskal
+#: code:addons/l10n_hr_account_fiskal/models/account_invoice.py:40
+#, python-format
+msgid "Neispravan ili nije unešen OIB korisnika!"
+msgstr "Neispravan ili nije unešen OIB korisnika!"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,help:l10n_hr_account_fiskal.field_fiskal_prostor_spec
+msgid "OIB informatičke tvrtke koja održava software"
+msgstr "OIB informatičke tvrtke koja održava software"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_log_form
+msgid "Odgovor na poruku"
+msgstr "Odgovor na poruku"
+
+#. module: l10n_hr_account_fiskal
+#: selection:fiskal.log,type:0
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_prostor_form_inherit
+msgid "Odjava prostora"
+msgstr "Odjava prostora"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_fiskal_prostor_id
+msgid "Office"
+msgstr "Office"
+
+#. module: l10n_hr_account_fiskal
+#: selection:account.tax,hr_fiskal_type:0
+msgid "Oporezivanje marze"
+msgstr "Oporezivanje marze"
+
+#. module: l10n_hr_account_fiskal
+#: selection:account.tax,hr_fiskal_type:0
+msgid "Oslobodjenje"
+msgstr "Oslobodjenje"
+
+#. module: l10n_hr_account_fiskal
+#: selection:account.tax,hr_fiskal_type:0
+msgid "Ostali porezi"
+msgstr "Ostali porezi"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_prostor_form_inherit
+msgid "Ostali tipovi adresa"
+msgstr "Ostali tipovi adresa"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,help:l10n_hr_account_fiskal.field_fiskal_prostor_prostor_ostalo
+msgid "Ostali tipovi adresa, npr internet trgovina ili pokretna trgovina"
+msgstr "Ostali tipovi adresa, npr internet trgovina ili pokretna trgovina"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_prostor_prostor_ostalo
+msgid "Ostali tipovi adrese"
+msgstr "Ostali tipovi adrese"
+
+#. module: l10n_hr_account_fiskal
+#: selection:fiskal.log,type:0
+msgid "Other types"
+msgstr "Ostali tipovi"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_name
+msgid "Oznaka"
+msgstr "Oznaka"
+
+#. module: l10n_hr_account_fiskal
+#: selection:account.tax,hr_fiskal_type:0
+msgid "PDV"
+msgstr "PDV"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_account_invoice_paragon_br_rac
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiscal_invoice_mixin_paragon_br_rac
+msgid "Paragon br."
+msgstr "Paragon br."
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,help:l10n_hr_account_fiskal.field_account_invoice_paragon_br_rac
+#: model:ir.model.fields,help:l10n_hr_account_fiskal.field_fiscal_invoice_mixin_paragon_br_rac
+msgid "Paragon broj racuna, ako je racun izdan na paragon."
+msgstr "Paragon broj racuna, ako je racun izdan na paragon."
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_user_id
+msgid "Person"
+msgstr "Osoba"
+
+#. module: l10n_hr_account_fiskal
+#: selection:fiskal.log,type:0
+msgid "Ponovljeno slanje racuna"
+msgstr "Ponovljeno slanje racuna"
+
+#. module: l10n_hr_account_fiskal
+#: selection:account.tax,hr_fiskal_type:0
+msgid "Porez na potrosnju"
+msgstr "Porez na potrosnju"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_log_form
+msgid "Poruka"
+msgstr "Poruka"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_account_invoice_fiskal_log_ids
+msgid "Poruke fiskalizacije"
+msgstr "Poruke fiskalizacije"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_log_form
+msgid "Poslana poruka"
+msgstr "Poslana poruka"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.fiskal_log_tree_view
+msgid "Poslane poruke"
+msgstr "Poslane poruke"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model,name:l10n_hr_account_fiskal.model_fiskal_prostor
+msgid "Poslovni prostori - fiskalizacija"
+msgstr "Poslovni prostori - fiskalizacija"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_prostor_posta
+msgid "Posta"
+msgstr "Posta"
+
+#. module: l10n_hr_account_fiskal
+#: selection:fiskal.log,type:0
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_prostor_form_inherit
+msgid "Prijava prostora"
+msgstr "Prijava prostora"
+
+#. module: l10n_hr_account_fiskal
+#: selection:fiskal.log,type:0
+msgid "Provjera fiskalizacije računa"
+msgstr "Provjera fiskalizacije računa"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_prostor_radno_vrijeme
+msgid "Radno Vrijeme"
+msgstr "Radno Vrijeme"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_odgovor
+msgid "Reply"
+msgstr "Odgovor"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_sadrzaj
+msgid "Sent message"
+msgstr "Poslana poruka"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_prostor_form_inherit
+msgid "Slanje test poruke za provjeru dostupnosti servera"
+msgstr "Slanje test poruke za provjeru dostupnosti servera"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_prostor_spec
+msgid "Specijalno"
+msgstr "Specijalno"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_prostor_form_inherit
+msgid "TEST ECHO"
+msgstr "TEST ECHO"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model,name:l10n_hr_account_fiskal.model_account_tax
+msgid "Tax"
+msgstr "Porez"
+
+#. module: l10n_hr_account_fiskal
+#: code:addons/l10n_hr_account_fiskal/models/account_invoice.py:62
+#, python-format
+msgid "Tax '%s' missing fiskal type!"
+msgstr "Porezu '%s' nedostaje fiskalni tip!"
+
+#. module: l10n_hr_account_fiskal
+#: selection:fiskal.log,type:0
+msgid "Test poruka "
+msgstr "Test poruka "
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_time_stamp
+msgid "Time"
+msgstr "Vrijeme"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.ui.view,arch_db:l10n_hr_account_fiskal.view_fiskal_log_form
+msgid "UUID poruke"
+msgstr "UUID poruke"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_prostor_ulica
+msgid "Ulica"
+msgstr "Ulica"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,help:l10n_hr_account_fiskal.field_fiskal_log_name
+msgid "Unique communication mark"
+msgstr "Jedinstvena oznaka komunikacije"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model,name:l10n_hr_account_fiskal.model_res_users
+msgid "Users"
+msgstr "Korisnici"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,help:l10n_hr_account_fiskal.field_account_invoice_vrijeme_xml
+#: model:ir.model.fields,help:l10n_hr_account_fiskal.field_fiscal_invoice_mixin_vrijeme_xml
+msgid "Value from fiscalization msg stored as string"
+msgstr "Vrijednost poruke fiskalizacije spremljena kao string"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiskal_log_time_obr
+msgid "Vrijeme obrade"
+msgstr "Vrijeme obrade"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_account_invoice_vrijeme_xml
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiscal_invoice_mixin_vrijeme_xml
+msgid "XML vrijeme računa"
+msgstr "XML vrijeme računa"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_account_invoice_zki
+#: model:ir.model.fields,field_description:l10n_hr_account_fiskal.field_fiscal_invoice_mixin_zki
+msgid "ZKI"
+msgstr "ZKI"
+
+#. module: l10n_hr_account_fiskal
+#: code:addons/l10n_hr_account_fiskal/models/account_invoice.py:38
+#, python-format
+msgid "Za ovaj dokument fiskalizacija nije aktivna!!"
+msgstr "Za ovaj dokument fiskalizacija nije aktivna!!"
+
+#. module: l10n_hr_account_fiskal
+#: model:ir.model,name:l10n_hr_account_fiskal.model_fiscal_invoice_mixin
+msgid "fiscal.invoice.mixin"
+msgstr "fiscal.invoice.mixin"
