@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+        <record id="tax_group_pn_pdv25" model="account.tax.group">
+            <field name="name">PDV PN 25%</field>
+            <field name="sequence" eval="1"/>
+        </record>
+        <record id="tax_group_pn_pdv13" model="account.tax.group">
+            <field name="name">PDV PN 13%</field>
+            <field name="sequence" eval="2"/>
+        </record>
+        <record id="tax_group_pn_pdv05" model="account.tax.group">
+            <field name="name">PDV PN 5%</field>
+            <field name="sequence" eval="3"/>
+        </record>
+        <record id="tax_group_pn_ppdv25" model="account.tax.group">
+            <field name="name">PPDV PN 25%</field>
+            <field name="sequence" eval="4"/>
+        </record>
+        <record id="tax_group_pn_ppdv13" model="account.tax.group">
+            <field name="name">PPDV PN 13%</field>
+            <field name="sequence" eval="5"/>
+        </record>
+        <record id="tax_group_pn_ppdv05" model="account.tax.group">
+            <field name="name">PPDV PN 5%</field>
+            <field name="sequence" eval="6"/>
+        </record>
+    </data>
+</openerp>

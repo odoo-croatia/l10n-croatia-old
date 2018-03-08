@@ -1,0 +1,10 @@
+-
+ Configure taxes - correct old descriptions to fit new schema,
+-
+  !python {model: ir.values, id: False} : |
+      self.env.cr.execute("select description from account_tax where description like 'PO-%'")
+      if self.env.cr.fetchall():
+          self.env.cr.execute("""
+              UPDATE account_tax
+              set description = trim(leading 'PO-' from description)
+              where description like 'PO-%'""")

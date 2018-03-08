@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+  <data noupdate="0"><!--noupdate="0"-->
+        <record id="sequence_tax_on_payment" model="ir.sequence">
+            <field name="name">PPN</field>
+            <field name="implementation">no_gap</field>
+            <field name="prefix">PPN/%(range_year)s/</field>
+            <field name="padding">4</field>
+            <!-- DB: I use it by default, so remeber to set ranges! -->
+            <field name="use_date_range" eval="True"/>
+        </record>
+        <record id="account_journal_tax_on_payment" model="account.journal">
+            <field name="name">Evidencija poreza po naplaćenom</field>
+            <field name="type">general</field>
+            <field name="code">PPN</field>
+            <field name="show_on_dashboard" eval="False"/>
+            <field name="sequence">99</field>
+            <field name="sequence_id" ref="sequence_tax_on_payment"/>
+            <field name="refund_sequence_id" ref="sequence_tax_on_payment"/>
+        </record>
+  </data>
+</openerp>

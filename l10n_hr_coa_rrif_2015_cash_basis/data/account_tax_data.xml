@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1"><!---->
+        <record id="tax_tcb_PDV25D" model="account.tax">
+            <field name="sequence" eval="10"/>
+            <field name="name">PDV 25% na dobra (po napl.)</field>
+            <field name="description">PDV PN 25% D</field>
+            <field name="tax_group_id" ref="tax_group_pn_pdv25"/>
+            <field name="type_tax_use">sale</field>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="25"/>
+            <field name="account_id" search="[('code','=','2600')]"/>
+            <field name="refund_account_id" search="[('code','=','2600')]"/>
+            <field name="use_cash_basis" eval="1"/>
+            <field name="cash_basis_account" search="[('code','=','240012')]"/>
+        </record>
+        <record id="tax_tcb_PDV13D" model="account.tax">
+            <field name="sequence" eval="15"/>
+            <field name="name">PDV 13% na dobra (po napl.)</field>
+            <field name="description">PDV PN 13% D</field>
+            <field name="tax_group_id" ref="tax_group_pn_pdv13"/>
+            <field name="type_tax_use">sale</field>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="13"/>
+            <field name="account_id" search="[('code','=','2600')]"/>
+            <field name="refund_account_id" search="[('code','=','2600')]"/>
+            <field name="use_cash_basis" eval="1"/>
+            <field name="cash_basis_account" search="[('code','=','240011')]"/>
+        </record>
+        <record id="tax_tcb_PDV5D" model="account.tax">
+            <field name="sequence" eval="20"/>
+            <field name="name">PDV 5% na dobra (po napl.)</field>
+            <field name="description">PDV PN 5% D</field>
+            <field name="tax_group_id" ref="tax_group_pn_pdv05"/>
+            <field name="type_tax_use">sale</field>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="5"/>
+            <field name="account_id" search="[('code','=','2600')]"/>
+            <field name="refund_account_id" search="[('code','=','2600')]"/>
+            <field name="use_cash_basis" eval="1"/>
+            <field name="cash_basis_account" search="[('code','=','240010')]"/>
+        </record>
+        <record id="tax_tcb_PDV25U" model="account.tax">
+            <field name="sequence" eval="11"/>
+            <field name="name">PDV 25% na usluge (po napl.)</field>
+            <field name="description">PDV PN 25% U</field>
+            <field name="tax_group_id" ref="tax_group_pn_pdv25"/>
+            <field name="type_tax_use">sale</field>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="25"/>
+            <field name="account_id" search="[('code','=','2600')]"/>
+            <field name="refund_account_id" search="[('code','=','2600')]"/>
+            <field name="use_cash_basis" eval="1"/>
+            <field name="cash_basis_account" search="[('code','=','240012')]"/>
+        </record>
+        <record id="tax_tcb_PDV13U" model="account.tax">
+            <field name="sequence" eval="16"/>
+            <field name="name">PDV 13% na usluge (po napl.)</field>
+            <field name="description">PDV PN 13% U</field>
+            <field name="tax_group_id" ref="tax_group_pn_pdv13"/>
+            <field name="type_tax_use">sale</field>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="13"/>
+            <field name="account_id" search="[('code','=','2600')]"/>
+            <field name="refund_account_id" search="[('code','=','2600')]"/>
+            <field name="use_cash_basis" eval="1"/>
+            <field name="cash_basis_account" search="[('code','=','240011')]"/>
+        </record>
+        <record id="tax_tcb_PPDV25D" model="account.tax">
+            <field name="sequence" eval="10"/>
+            <field name="name">PPDV 25% na dobra (po napl.)</field>
+            <field name="description">PPDV PN 25% D</field>
+            <field name="tax_group_id" ref="tax_group_pn_ppdv25"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="25"/>
+            <field name="account_id" search="[('code','=','14081')]"/>
+            <field name="refund_account_id" search="[('code','=','14081')]"/>
+            <field name="price_include">FALSE</field>
+            <field name="use_cash_basis" eval="1"/>
+            <field name="cash_basis_account" search="[('code','=','140012')]"/>
+        </record>
+        <record id="tax_tcb_PPDV13D" model="account.tax">
+            <field name="sequence" eval="50"/>
+            <field name="name">PPDV 13% na dobra (po napl.)</field>
+            <field name="description">PPDV PN 13% D</field>
+            <field name="tax_group_id" ref="tax_group_pn_ppdv13"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="13"/>
+            <field name="account_id" search="[('code','=','14081')]"/>
+            <field name="refund_account_id" search="[('code','=','14081')]"/>
+            <field name="use_cash_basis" eval="1"/>
+            <field name="cash_basis_account" search="[('code','=','140011')]"/>
+        </record>
+        <record id="tax_tcb_PPDV5D" model="account.tax">
+            <field name="sequence" eval="100"/>
+            <field name="name">PPDV 5% na dobra (po napl.)</field>
+            <field name="description">PPDV  PN 5% D</field>
+            <field name="tax_group_id" ref="tax_group_pn_ppdv05"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="5"/>
+            <field name="account_id" search="[('code','=','14081')]"/>
+            <field name="refund_account_id" search="[('code','=','14081')]"/>
+            <field name="use_cash_basis" eval="1"/>
+            <field name="cash_basis_account" search="[('code','=','140010')]"/>
+        </record>
+        <record id="tax_tcb_PPDV25U" model="account.tax">
+            <field name="sequence" eval="11"/>
+            <field name="name">PPDV 25% na usluge (po napl.)</field>
+            <field name="description">PPDV PN 25% U</field>
+            <field name="tax_group_id" ref="tax_group_pn_ppdv25"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="25"/>
+            <field name="account_id" search="[('code','=','14081')]"/>
+            <field name="refund_account_id" search="[('code','=','14081')]"/>
+            <field name="use_cash_basis" eval="1"/>
+            <field name="cash_basis_account" search="[('code','=','140012')]"/>
+        </record>
+        <record id="tax_tcb_PPDV13U" model="account.tax">
+            <field name="sequence" eval="51"/>
+            <field name="name">PPDV 13% na usluge (po napl.)</field>
+            <field name="description">PPDV PN 13% U</field>
+            <field name="tax_group_id" ref="tax_group_pn_ppdv13"/>
+            <field name="type_tax_use">purchase</field>
+            <field name="amount_type">percent</field>
+            <field name="amount" eval="13"/>
+            <field name="account_id" search="[('code','=','14081')]"/>
+            <field name="refund_account_id" search="[('code','=','14081')]"/>
+            <field name="use_cash_basis" eval="1"/>
+            <field name="cash_basis_account" search="[('code','=','140011')]"/>
+        </record>
+    </data>
+</openerp>
