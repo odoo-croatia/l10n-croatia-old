@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+        <xpath expr="//t[@t-as='amount_by_group']" position="replace">
+            <t t-foreach="o._get_tax_amount_by_group()" t-as="amount_by_group">
+                <tr>
+                    <!-- DB: mijenajm naziv poreza za fiksni string "Tax amount", i kasnije uvjek dodajem razradu -->
+                    <td><span>Tax amount</span></td>
+                    <td class="text-right">
+                        <span t-esc="amount_by_group[1]" t-options='{"widget": "monetary", "display_currency": o.currency_id}'/>
+                    </td>
+                </tr>
+            </t>
+        </xpath>
+    </template>
+
+
+    <!--db: sad je > 0, (red 122)-->
+    <template id="invoice_taxes">
+        <div class="row">
+            <div class="col-xs-8 ">
+                <span>Tax summary</span>
+                <t t-if="o.company_id.obracun_poreza=='r2'">
+                    <span> - obračun po naplaćenim naknadama</span>
+                </t>
+                <table class="table table-condensed ">
+                    <thead >
+                        <tr>
+                            <th >Name </th>
+                            <th class="text-right">Base</th>
+                            <th class="text-right">Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody class="invoice_tbody">
+                        <tr t-foreach="tax" t-as="t">
+                            <td >
+                                <span t-field="t.name"/>
+                            </td>
+                            <td class="text-right ">
+                                <span t-field="t.base"/>
+                            </td>
+                            <td class="text-right " >
+                                <span t-field="t.amount"/>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </template>
+
+
+</data>
+</odoo>

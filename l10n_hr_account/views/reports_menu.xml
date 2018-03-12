@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_l10n_hr_reports"
+                  name="Hrvatska - Izvještaji"
+                  groups="account.group_account_user"
+                  parent="account.menu_finance_reports"/>
+
+    </data>
+</odoo>

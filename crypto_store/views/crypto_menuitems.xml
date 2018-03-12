@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+	    <menuitem id="menu_crypto" name="Cryptography" parent="base.menu_custom"/>
+    </data>
+</odoo>

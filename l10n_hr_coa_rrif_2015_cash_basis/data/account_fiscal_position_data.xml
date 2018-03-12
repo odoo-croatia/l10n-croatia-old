@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<openerp>
+    <data ><!--  noupdate="1"  -->
+        <record id="fp_EU_tax_PPDV25D_->_EU25D" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','EU – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PPDV25D"/>
+            <field name="tax_dest_id" search="[('description','=','EU 25% D')]"/>
+        </record>
+        <record id="fp_EU_tax_PPDV13D_->_EU13D" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','EU – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PPDV13D"/>
+            <field name="tax_dest_id" search="[('description','=','EU 13% D')]"/>
+        </record>
+        <record id="fp_EU_tax_PPDV5D_->_EU5D" model="account.fiscal.position.tax">
+    <field name="position_id" search="[('name','=','EU – PARTNERI')]"/>
+    <field name="tax_src_id" ref="tax_tcb_PPDV5D"/>
+    <field name="tax_dest_id" search="[('description','=','EU 5% D')]"/>
+</record>
+        <record id="fp_EU_tax_PPDV25U_->_EU25U" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','EU – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PPDV25U"/>
+            <field name="tax_dest_id" search="[('description','=','EU 25% U')]"/>
+        </record>
+        <record id="fp_EU_tax_PPDV13U_->_EU13U" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','EU – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PPDV13U"/>
+            <field name="tax_dest_id" search="[('description','=','EU 13% U')]"/>
+        </record>
+
+        <record id="fp_EU_tax_PDV25D_->_PO-EU-R" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','EU – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV25D"/>
+            <field name="tax_dest_id" search="[('description','=','EU-D')]"/>
+        </record>
+        <record id="fp_EU_tax_PDV13D_->_PO-EU-R" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','EU – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV13D"/>
+            <field name="tax_dest_id" search="[('description','=','EU-D')]"/>
+        </record>
+        <record id="fp_EU_tax_PDV5D_->_PO-EU-U" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','EU – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV5D"/>
+            <field name="tax_dest_id" search="[('description','=','EU-D')]"/>
+        </record>
+        <record id="fp_EU_tax_PDV25U_->_PO-EU-U" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','EU – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV25U"/>
+            <field name="tax_dest_id" search="[('description','=','EU-U')]"/>
+        </record>
+        <record id="fp_EU_tax_PDV13U_->_PO-EU-U" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','EU – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV13U"/>
+            <field name="tax_dest_id" search="[('description','=','EU-U')]"/>
+        </record>
+
+        <!--   -->
+
+        <record id="fp_INO_tax_PPDV25D_->_INO25DU" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','INO – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PPDV25D"/>
+            <field name="tax_dest_id" search="[('description','=','INO 25% D')]"/>
+        </record>
+        <record id="fp_INO_tax_PPDV13D_->_INO13DU" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','INO – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PPDV13D"/>
+            <field name="tax_dest_id" search="[('description','=','INO 13% D')]"/>
+        </record>
+        <record id="fp_INO_tax_PPDV5D_->_INO5DU" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','INO – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PPDV5D"/>
+            <field name="tax_dest_id" search="[('description','=','INO 5% D')]"/>
+        </record>
+        <record id="fp_INO_tax_PPDV25U_->_INO25DU" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','INO – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PPDV25U"/>
+            <field name="tax_dest_id" search="[('description','=','INO 25% U')]"/>
+        </record>
+        <record id="fp_INO_tax_PPDV13U_->_INO13DU" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','INO – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PPDV13U"/>
+            <field name="tax_dest_id" search="[('description','=','INO 13% U')]"/>
+        </record>
+
+        <record id="fp_INO_tax_PDV25D_->_PO-INO-D" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','INO – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV25D"/>
+            <field name="tax_dest_id" search="[('description','=','INO-D')]"/>
+        </record>
+        <record id="fp_INO_tax_PDV13D_->_PO-INO-D" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','INO – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV13D"/>
+            <field name="tax_dest_id" search="[('description','=','INO-D')]"/>
+        </record>
+        <record id="fp_INO_tax_PDV5D_->_PO-INO-D" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','INO – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV5D"/>
+            <field name="tax_dest_id" search="[('description','=','INO-D')]"/>
+        </record>
+        <record id="fp_INO_tax_PDV25U_->_PO-INO-U" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','INO – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV25U"/>
+            <field name="tax_dest_id" search="[('description','=','INO-U')]"/>
+        </record>
+        <record id="fp_INO_tax_PDV13U_->_PO-INO-U" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','INO – PARTNERI')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV13U"/>
+            <field name="tax_dest_id" search="[('description','=','INO-U')]"/>
+        </record>
+
+        <!--    -->
+        <record id="fp_BEZ_SJED_tax_PDV25D_->_PO-BS" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','BEZ SJEDISTA')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV25D"/>
+            <field name="tax_dest_id" search="[('description','=','BS')]"/>
+        </record>
+        <record id="fp_BEZ_SJED_tax_PDV13D_->_PO-BS" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','BEZ SJEDISTA')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV13D"/>
+            <field name="tax_dest_id" search="[('description','=','BS')]"/>
+        </record>
+        <record id="fp_BEZ_SJED_tax_PDV5D_->_PO-BS" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','BEZ SJEDISTA')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV5D"/>
+            <field name="tax_dest_id" search="[('description','=','BS')]"/>
+        </record>
+        <record id="fp_BEZ_SJED_tax_PDV25U_->_PO-BS" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','BEZ SJEDISTA')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV25U"/>
+            <field name="tax_dest_id" search="[('description','=','BS')]"/>
+        </record>
+        <record id="fp_BEZ_SJED_tax_PDV25U_->_PO-BS" model="account.fiscal.position.tax">
+            <field name="position_id" search="[('name','=','BEZ SJEDISTA')]"/>
+            <field name="tax_src_id" ref="tax_tcb_PDV13U"/>
+            <field name="tax_dest_id" search="[('description','=','BS')]"/>
+        </record>
+
+
+        <!--<record id="fp_NIJE_U_PDV_tax_PPDV25D_->_IZVAN-PDV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_NIJE_U_PDV"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PDV25D"/>-->
+            <!--<field name="tax_dest_id" search="[('description','=','IZVAN-PDV')]"/>-->
+        <!--</record>-->
+        <!--<record id="fp_NIJE_U_PDV_tax_PPDV13D_->_IZVAN-PDV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_NIJE_U_PDV"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PDV13D"/>-->
+            <!--<field name="tax_dest_id" search="[('description','=','IZVAN-PDV')]"/>-->
+        <!--</record>-->
+        <!--<record id="fp_NIJE_U_PDV_tax_PPDV5D_->_IZVAN-PDV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_NIJE_U_PDV"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PDV5D"/>-->
+            <!--<field name="tax_dest_id" search="[('description','=','IZVAN-PDV')]"/>-->
+        <!--</record>-->
+        <!--<record id="fp_NIJE_U_PDV_tax_PPDV25U_->_IZVAN-PDV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_NIJE_U_PDV"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PDV25U"/>-->
+            <!--<field name="tax_dest_id" search="[('description','=','IZVAN-PDV')]"/>-->
+        <!--</record>-->
+        <!--<record id="fp_NIJE_U_PDV_tax_PPDV25U_->_IZVAN-PDV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_NIJE_U_PDV"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PDV13U"/>-->
+            <!--<field name="tax_dest_id" search="[('description','=','IZVAN-PDV')]"/>-->
+        <!--</record>-->
+
+        <!--<record id="fp_PPO_PDV25D_->_PPO" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_PPO"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PDV25D"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_TPPO"/>-->
+        <!--</record>-->
+
+        <!--<record id="fp_PPO_PDV25U_->_PPO" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_PPO"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PDV25U"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_TPPO"/>-->
+        <!--</record>-->
+
+        <!--<record id="fp_PPO_PPDV25D_->_D-TPO25" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_PPO"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PPDV25D"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_D-TPO25"/>-->
+        <!--</record>-->
+
+        <!--<record id="fp_PPO_PPDV25U_->_D-TPO25" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_PPO"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PPDV25U"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_D-TPO25"/>-->
+        <!--</record>-->
+
+        <!--<record id="" model="account.fiscal.position.tax">-->
+        <!--</record>-->
+
+        <!--<record id="fp_AVANS_PDV25D_->_PDV25AV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_AVANS"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PDV25D"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_PDV25A"/>-->
+        <!--</record>-->
+
+        <!--<record id="fp_AVANS_PDV25U_->_PDV25AV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_AVANS"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PDV25U"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_PDV25A"/>-->
+        <!--</record>-->
+
+        <!--<record id="fp_AVANS_PDV13D_->_PDV13AV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_AVANS"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PDV13D"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_PDV13A"/>-->
+        <!--</record>-->
+
+        <!--<record id="fp_AVANS_PDV13U_->_PDV13AV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_AVANS"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PDV13U"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_PDV13A"/>-->
+        <!--</record>-->
+
+        <!--<record id="fp_AVANS_PDV5D_->_PDV13AV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_AVANS"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PDV5D"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_PDV5A"/>-->
+        <!--</record>-->
+
+        <!--<record id="fp_AVANS_PPDV25D_->_PPDV25AV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_AVANS"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PPDV25D"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_PPDV25A"/>-->
+        <!--</record>-->
+
+        <!--<record id="fp_AVANS_PPDV25U_->_PPDV25AV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_AVANS"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PPDV25U"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_PPDV25A"/>-->
+        <!--</record>-->
+
+        <!--<record id="fp_AVANS_PPDV13D_->_PPDV13AV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_AVANS"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PPDV13D"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_PPDV13A"/>-->
+        <!--</record>-->
+
+        <!--<record id="fp_AVANS_PPDV13U_->_PPDV13AV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_AVANS"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PPDV13U"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_PPDV13A"/>-->
+        <!--</record>-->
+
+        <!--<record id="fp_AVANS_PPDV5D_->_PPDV13AV" model="account.fiscal.position.tax">-->
+            <!--<field name="position_id" ref="fp_template_AVANS"/>-->
+            <!--<field name="tax_src_id" ref="tax_tcb_PPDV5D"/>-->
+            <!--<field name="tax_dest_id" ref="tax_tmpl_PPDV5A"/>-->
+        <!--</record>-->
+
+
+    </data>
+</openerp>

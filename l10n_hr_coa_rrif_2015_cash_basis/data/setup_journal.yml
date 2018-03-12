@@ -1,0 +1,11 @@
+-
+ Configure accounting - vat on payment journal,
+-
+  !python {model: ir.values, id: False} : |
+
+      acc_setting = self.env['account.config.settings'].create({})
+      acc_setting.company_id = ref('base.main_company')
+      if not acc_setting.tax_cash_basis_journal_id:
+        acc_setting.tax_cash_basis_journal_id = ref('l10n_hr_coa_rrif_2015_cash_basis.account_journal_tax_on_payment')
+
+      acc_setting.execute()
