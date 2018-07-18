@@ -1,0 +1,25 @@
+-
+  Update some known taxes with fiskal type
+-
+  !python {model: account.tax, id: False} : |
+      company_obj = self.env['res.company']
+      company_ids = company_obj.search([
+          ('chart_template_id', '!=', False),
+          ('country_id.code', '=', 'HR')]).ids
+      pdv_taxes = [  # ovo su sifre koje poznam...
+          'PDV 25% D',
+          'PDV 13% D',
+          'PDV 5% D',
+          'PDV 25% U',
+          'PDV 13% U',
+          'PDV 25% A',
+          'PDV 13% A',
+          'PDV 5% A',
+          ]
+      for company_id in company_ids:
+          update_taxes = self.search([
+                  ('description', 'in', pdv_taxes),
+                  ('company_id', '=', company_id)
+                  ])
+          if update_taxes:  # serach vrati browse recorde, pa mogu samo pisati u njih :) NICE!
+              update_taxes.write({'hr_fiskal_type': 'pdv'})

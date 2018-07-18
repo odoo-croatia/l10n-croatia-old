@@ -1,0 +1,534 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_hr_account
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-04 14:00+0000\n"
+"PO-Revision-Date: 2016-10-04 16:06+0100\n"
+"Last-Translator: Davor Bojkić <davor.bojkic@storm.hr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.payment_info
+msgid "<span>Account number : </span>"
+msgstr "<span>Broj računa : </span>"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.payment_info
+msgid "<span>Bank : </span>"
+msgstr "<span>Poslovna banka : </span>"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.payment_info
+msgid "<span>Payment info</span><br/>"
+msgstr "<span>Podaci za upatu</span><br/>"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.payment_info
+msgid "<span>Reference : </span>"
+msgstr "<span>Poziv na broj : </span>"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.invoice_header_data
+msgid "<strong class=\"col-xs-5\">Customer Code</strong>"
+msgstr "<strong class=\"col-xs-5\">Šifra partnera</strong>"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.invoice_header_data
+msgid "<strong class=\"col-xs-5\">Delivery Date</strong>"
+msgstr "<strong class=\"col-xs-5\">Datum isporuke</strong>"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.invoice_header_data
+msgid "<strong class=\"col-xs-5\">Description</strong>"
+msgstr "<strong class=\"col-xs-5\">Opis</strong>"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.invoice_header_data
+msgid "<strong class=\"col-xs-5\">Document Date</strong>"
+msgstr "<strong class=\"col-xs-5\">Datum dokumenta</strong>"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.invoice_header_data
+msgid "<strong class=\"col-xs-5\">Due Date</strong>"
+msgstr "<strong class=\"col-xs-5\">Datum dospijeća</strong>"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.invoice_header_data
+msgid "<strong class=\"col-xs-5\">Invoice Date</strong>"
+msgstr "<strong class=\"col-xs-5\">Datum računa</strong>"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.invoice_header_data
+msgid "<strong class=\"col-xs-5\">Naplatni uređaj</strong>"
+msgstr "<strong class=\"col-xs-5\">Naplatni uređaj</strong>"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.invoice_header_data
+msgid "<strong class=\"col-xs-5\">Način plaćanja</strong>"
+msgstr "<strong class=\"col-xs-5\">Način plaćanja</strong>"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.invoice_header_data
+msgid "<strong class=\"col-xs-5\">Source</strong>"
+msgstr "<strong class=\"col-xs-5\">Vezni dokument</strong>"
+
+#. module: l10n_hr_account
+#: model:ir.model,name:l10n_hr_account.model_account_move
+msgid "Account Entry"
+msgstr "Temeljnica"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_account_invoice_address_space_side
+msgid "Address space side"
+msgstr "Pozicija adresu na ispisu"
+
+#. module: l10n_hr_account
+#: selection:fiskal.prostor,state:0
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_uredjaj_aktivan
+msgid "Aktivan"
+msgstr "Aktivan"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_account_journal_fiscal_position_control_ids
+msgid "Allowed fiscal positions"
+msgstr "Dozvoljene fiskalne pozicije"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_account_invoice_tax_base_amount
+msgid "Base amount"
+msgstr "Iznos osnovice"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_account_invoice_fiskalni_broj
+msgid "Broj računa"
+msgstr "Broj računa"
+
+#. module: l10n_hr_account
+#: model:ir.actions.act_window,name:l10n_hr_account.action_fiskal_prostor
+#: model:ir.ui.menu,name:l10n_hr_account.menu_action_fiskal_prostor
+msgid "Business premisses"
+msgstr "Poslovni prostori"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.report_invoice_header_layout
+msgid "Cancelled Invoice"
+msgstr "Otkazani račun"
+
+#. module: l10n_hr_account
+#: model:ir.model,name:l10n_hr_account.model_res_company
+msgid "Companies"
+msgstr "Tvrtke"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor_create_uid
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_uredjaj_create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor_create_date
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_uredjaj_create_date
+msgid "Created on"
+msgstr "Datum kreiranja"
+
+#. module: l10n_hr_account
+#: model:ir.ui.menu,name:l10n_hr_account.menu_pdv_reports
+msgid "Croatia reports"
+msgstr "Hrvatska - Izvještaji"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.view_account_journal_l10n_hr_form
+msgid "Croatia specific"
+msgstr "HR lokalizacija"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.view_users_defaults_form_inherit
+msgid "Croatia user defaults"
+msgstr "HRVATSKA korisnički podaci"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,help:l10n_hr_account.field_account_invoice_date_delivery
+msgid "Date of delivery of goods or service. Leave blank for curent date"
+msgstr ""
+"Datum isporuke proizvoda ili usluga,. Ostavite prazno za današnji datum."
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,help:l10n_hr_account.field_account_invoice_date_document
+msgid ""
+"Date when the document was actually created. Leave blank for current date"
+msgstr ""
+"Date when the document was actually created. Leave blank for current date"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_account_invoice_date_delivery
+msgid "Delivery Date"
+msgstr "Datum isporuke"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor_display_name
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_uredjaj_display_name
+msgid "Display Name"
+msgstr "Naziv za prikaz"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_uredjaj_journal_ids
+msgid "Dnevnici"
+msgstr "Dnevnici"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.view_users_defaults_form_inherit
+msgid "Dnevnici knjiženja"
+msgstr "Dnevnici knjiženja"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_account_invoice_date_document
+#: model:ir.ui.view,arch_db:l10n_hr_account.account_invoice_l10n_hr_search
+msgid "Document Date"
+msgstr "Datum dokumenta"
+
+#. module: l10n_hr_account
+#: code:addons/l10n_hr_account/models/account_invoice.py:82
+#, python-format
+msgid "Document from partner %s with number %s already existing"
+msgstr "Dokument od partnera %s sa brojem %s već postoji"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.view_users_defaults_form_inherit
+msgid "Dohvati sve uređaje"
+msgstr "Dohvati sve uređaje"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_account_journal_fiskal_uredjaj_ids
+msgid "Dopusteni naplatni uredjaji"
+msgstr "Dopusteni naplatni uredjaji"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_res_users_journal_ids
+msgid "Dozvoljeni dnevnici prodaje"
+msgstr "Dozvoljeni dnevnici prodaje"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_res_users_uredjaj_ids
+msgid "Dozvoljeni naplatni uređaji"
+msgstr "Dozvoljeni naplatni uređaji"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_res_users_prostor_ids
+msgid "Dozvoljeni prostori"
+msgstr "Dozvoljeni prostori"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,help:l10n_hr_account.field_res_users_prostor_ids
+msgid "Dozvoljeni prostori za izdavanje računa"
+msgstr "Dozvoljeni prostori za izdavanje računa"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.report_invoice_header_layout
+msgid "Draft Invoice"
+msgstr "Nacrt računa"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.view_fiskal_uredjaj_form
+msgid "Fiskalizacija"
+msgstr "Fiskalizacija"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor_id
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_uredjaj_id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_hr_account
+#: model:ir.model,name:l10n_hr_account.model_account_invoice
+#: model:ir.ui.view,arch_db:l10n_hr_account.report_invoice_header_layout
+msgid "Invoice"
+msgstr "Račun"
+
+#. module: l10n_hr_account
+#: model:ir.model,name:l10n_hr_account.model_account_invoice_tax
+msgid "Invoice Tax"
+msgstr "Porezi računa"
+
+#. module: l10n_hr_account
+#: model:ir.model,name:l10n_hr_account.model_account_journal
+msgid "Journal"
+msgstr "Dnevnik"
+
+#. module: l10n_hr_account
+#: model:ir.model,name:l10n_hr_account.model_account_move_line
+msgid "Journal Item"
+msgstr "Stavka dnevnika"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_account_journal_user_ids
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_uredjaj_user_ids
+msgid "Korisnici sa pravom knjiženja"
+msgstr "Korisnici sa pravom knjiženja"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor___last_update
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_uredjaj___last_update
+msgid "Last Modified on"
+msgstr "Zadnja promjena"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor_write_uid
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_uredjaj_write_uid
+msgid "Last Updated by"
+msgstr "Promijenio"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor_write_date
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_uredjaj_write_date
+msgid "Last Updated on"
+msgstr "Vrijeme promjene"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,help:l10n_hr_account.field_account_journal_fiscal_position_control_ids
+msgid ""
+"Leave empty for no control, othervise specify fiscal position allowed for "
+"this journal"
+msgstr ""
+"Ostavite prazno ukoliko ne želite kontrolu, ili unesite fiskalnu poziciju "
+"dozvoljenu za ovaj dnevnik"
+
+#. module: l10n_hr_account
+#: selection:fiskal.prostor,sljed_racuna:0
+msgid "Na nivou naplatnog uredjaja"
+msgstr "Na nivou naplatnog uredjaja"
+
+#. module: l10n_hr_account
+#: selection:fiskal.prostor,sljed_racuna:0
+msgid "Na nivou poslovnog prostora"
+msgstr "Na nivou poslovnog prostora"
+
+#. module: l10n_hr_account
+#: selection:fiskal.prostor,state:0
+msgid "Nacrt"
+msgstr "Nacrt"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_account_invoice_fiskal_uredjaj_id
+msgid "Naplatni uređaj"
+msgstr "Naplatni uređaj"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.view_users_defaults_form_inherit
+msgid "Naplatni uređaji"
+msgstr "Naplatni uređaji"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.view_fiskal_prostor_form
+msgid "Naplatni uređaji u prostoru"
+msgstr "Naplatni uređaji u prostoru"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.view_fiskal_uredjaj_tree
+msgid "Naplatni uredjaji"
+msgstr "Naplatni uredjaji"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_uredjaj_name
+msgid "Naziv naplatnog uredjaja"
+msgstr "Naziv naplatnog uredjaja"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor_name
+msgid "Naziv pos. prostora"
+msgstr "Naziv pos. prostora"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_account_invoice_nacin_placanja
+msgid "Način plaćanja"
+msgstr "Način plaćanja"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_uredjaj_oznaka_uredjaj
+msgid "Oznaka naplatnog uredjaja"
+msgstr "Oznaka naplatnog uredjaja"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor_oznaka_prostor
+msgid "Oznaka poslovnog prostora"
+msgstr "Oznaka poslovnog prostora"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.report_invoice_header_layout
+msgid "PRO-FORMA"
+msgstr "PRO-FORMA"
+
+#. module: l10n_hr_account
+#: model:ir.model,name:l10n_hr_account.model_res_partner
+msgid "Partner"
+msgstr "Partner"
+
+#. module: l10n_hr_account
+#: model:ir.actions.act_window,name:l10n_hr_account.action_fiskal_uredjaj
+#: model:ir.ui.menu,name:l10n_hr_account.menu_action_fiskal_uredjaj
+msgid "Payment registers"
+msgstr "Naplatni uređaji"
+
+#. module: l10n_hr_account
+#: model:ir.model,name:l10n_hr_account.model_fiskal_uredjaj
+msgid "Podaci o poslovnim prostorima za potrebe fiskalizacije"
+msgstr "Podaci o poslovnim prostorima za potrebe fiskalizacije"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.view_fiskal_prostor_form
+#: model:ir.ui.view,arch_db:l10n_hr_account.view_fiskal_prostor_tree
+msgid "Poslovni prostor"
+msgstr "Poslovni prostor"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_res_company_fiskal_prostor_ids
+msgid "Poslovni prostori"
+msgstr "Poslovni prostori"
+
+#. module: l10n_hr_account
+#: model:ir.model,name:l10n_hr_account.model_fiskal_prostor
+msgid "Poslovni prostori - fiskalizacija"
+msgstr "Poslovni prostori - fiskalizacija"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_account_journal_prostor_id
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_uredjaj_prostor_id
+msgid "Prostor"
+msgstr "Prostor"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,help:l10n_hr_account.field_fiskal_uredjaj_prostor_id
+msgid "Prostor naplatnog uredjaja"
+msgstr "Prostor naplatnog uredjaja"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,help:l10n_hr_account.field_account_journal_prostor_id
+msgid "Prostor naplatnog uredjaja."
+msgstr "Prostor naplatnog uredjaja."
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.report_invoice_header_layout
+msgid "Refund"
+msgstr "Odobrenje"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,help:l10n_hr_account.field_account_invoice_address_space_side
+msgid "Side where address is displayed"
+msgstr "Strana na kojoj se ispisuje adresa"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor_sljed_racuna
+msgid "Sljed racuna"
+msgstr "Sljed racuna"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor_state
+msgid "Status prostora"
+msgstr "Status prostora"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.invoice_header_address
+msgid "TIN:"
+msgstr "OIB :"
+
+#. module: l10n_hr_account
+#: code:addons/l10n_hr_account/models/account_move.py:60
+#, python-format
+msgid ""
+"The amount expressed in the secondary currency must be positive when account "
+"is debited and negative when account is credited."
+msgstr ""
+"Iznos izražen u sekundarnoj valuti mora biti pozitivan kad je dugovni konto "
+"i negativan kad je potražni."
+
+#. module: l10n_hr_account
+#: sql_constraint:fiskal.prostor:0
+msgid "The code of the business premise must be unique per company !"
+msgstr "Oznaka poslovnog prostora mora biti jedinstvena za poduzeće!"
+
+#. module: l10n_hr_account
+#: sql_constraint:fiskal.uredjaj:0
+msgid "The code of the payment register must be unique per business premise !"
+msgstr ""
+"Šifra naplatnog uređaja mora biti jednistvena na nivou poslovnog prostora !"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor_company_id
+msgid "Tvrtka"
+msgstr "Tvrtka"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor_uredjaj_ids
+msgid "Uredjaji"
+msgstr "Uredjaji"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_fiskal_prostor_user_ids
+msgid "User ids"
+msgstr "User ids"
+
+#. module: l10n_hr_account
+#: model:ir.model,name:l10n_hr_account.model_res_users
+msgid "Users"
+msgstr "Korisnici"
+
+#. module: l10n_hr_account
+#: code:addons/l10n_hr_account/models/account_invoice.py:91
+#, python-format
+msgid "Validate invoice not possible - partner %s has no VAT record"
+msgstr "Potvrđivanje računa nije moguće - partner %s nema upisan OIB"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.report_invoice_header_layout
+msgid "Vendor Bill"
+msgstr "Ulazni račun"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.report_invoice_header_layout
+msgid "Vendor Refund"
+msgstr "Ulazno odobrenje"
+
+#. module: l10n_hr_account
+#: code:addons/l10n_hr_account/models/account_invoice.py:42
+#, python-format
+msgid "You have no permission to post in this journal"
+msgstr "Nemate dozvolu knjiženja u ovaj dnevnik"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_res_users_default_journal
+msgid "Zadani dnevnik prodaje"
+msgstr "Zadani dnevnik prodaje"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_res_users_default_uredjaj
+msgid "Zadani nap. uređaj"
+msgstr "Zadani nap. uređaj"
+
+#. module: l10n_hr_account
+#: model:ir.model.fields,field_description:l10n_hr_account.field_account_journal_default_nacin_placanja
+msgid "Zadani način plaćanja"
+msgstr "Zadani način plaćanja"
+
+#. module: l10n_hr_account
+#: selection:fiskal.prostor,state:0
+msgid "Zatvoren"
+msgstr "Zatvoren"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.view_fiskal_prostor_form
+msgid "uredjaji"
+msgstr "uredjaji"
+
+#. module: l10n_hr_account
+#: model:ir.ui.view,arch_db:l10n_hr_account.account_invoice_supplier_l10n_hr_form
+#: model:ir.ui.view,arch_db:l10n_hr_account.account_invoice_supplier_l10n_hr_tree
+msgid "Posting Date"
+msgstr "Datum knjiženja"

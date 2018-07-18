@@ -1,0 +1,153 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* l10n_hr_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.1-20120607-233302\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-04 13:33+0000\n"
+"PO-Revision-Date: 2012-09-05 12:46+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+
+#. module: l10n_hr_base
+#: field:res.company,porezna_ispostava:0
+msgid "Porezna ispostava"
+msgstr "Porezna ispostava"
+
+#. module: l10n_hr_base
+#: field:res.bank,vbb_code:0
+msgid "VBB"
+msgstr "VBB"
+
+#. module: l10n_hr_base
+#: field:res.company,podnozje_ispisa:0
+msgid "Podnozje ispisa"
+msgstr "Podnožje ispisa"
+
+#. module: l10n_hr_base
+#: constraint:res.company:0
+msgid "Error! You can not create recursive companies."
+msgstr "Greška! Ne možete kreirati rekurzivna poduzeća"
+
+#. module: l10n_hr_base
+#: view:res.company:0
+msgid "Company data"
+msgstr "Registracija"
+
+#. module: l10n_hr_base
+#: field:res.company,racun_obrazac:0
+msgid "Vrsta računa"
+msgstr "Vrsta računa"
+
+#. module: l10n_hr_base
+#: model:ir.model,name:l10n_hr_base.model_l10n_hr_base_nkd
+msgid "NKD - Nacionalna klasifikacija djelatnosti"
+msgstr "NKD - Nacionalna klasifikacija djelatnosti"
+
+#. module: l10n_hr_base
+#: help:res.company,br_obveze_zdravstveno:0
+msgid "Broj obveze zdravstvenog osiguranja"
+msgstr "Broj obveze zdravstvenog osiguranja"
+
+#. module: l10n_hr_base
+#: model:ir.model,name:l10n_hr_base.model_res_bank
+msgid "Bank"
+msgstr "Banka"
+
+#. module: l10n_hr_base
+#: help:res.company,br_obveze_mirovinsko:0
+msgid "Broj obveze mirovinskog osiguranja"
+msgstr "Broj obveze mirovinskog osiguranja"
+
+#. module: l10n_hr_base
+#: sql_constraint:res.company:0
+msgid "The company name must be unique !"
+msgstr "Naziv poduzeća mora biti jedinstvan!"
+
+#. module: l10n_hr_base
+#: field:l10n_hr_base.nkd,name:0
+msgid "Name"
+msgstr "Naziv"
+
+#. module: l10n_hr_base
+#: model:ir.model,name:l10n_hr_base.model_res_company
+msgid "Companies"
+msgstr "Poduzeća"
+
+#. module: l10n_hr_base
+#: field:res.company,zaglavlje_ispisa:0
+msgid "Zaglavlje ispisa"
+msgstr "Zaglavlje ispisa"
+
+#. module: l10n_hr_base
+#: help:res.company,l10n_hr_base_nkd_id:0
+msgid "Nacionalna klasifikacija djelatnosti"
+msgstr "Nacionalna klasifikacija djelatnosti"
+
+#. module: l10n_hr_base
+#: field:res.company,porezna_uprava:0
+msgid "Porezna uprava"
+msgstr "Porezna uprava"
+
+#. module: l10n_hr_base
+#: field:res.company,l10n_hr_base_nkd_id:0
+msgid "NKD"
+msgstr "NKD"
+
+#. module: l10n_hr_base
+#: field:res.company,br_obveze_mirovinsko:0
+msgid "Br. obveze mirovinsko"
+msgstr "Br. obveze mirovinsko"
+
+#. module: l10n_hr_base
+#: field:l10n_hr_base.nkd,code:0
+msgid "Code"
+msgstr "Šifra"
+
+#. module: l10n_hr_base
+#: field:res.company,maticni_broj:0
+msgid "Maticni broj"
+msgstr "Maticni broj"
+
+#. module: l10n_hr_base
+#: field:res.company,br_obveze_zdravstveno:0
+msgid "Br. obveze zdravstveno"
+msgstr "Br. obveze zdravstveno"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_base_language_export_state
+msgid "State"
+msgstr "Stanje"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner_state_id
+#: model:ir.model.fields,field_description:base.field_res_users_state_id
+#: model:ir.ui.view,arch_db:base.view_company_form
+#: model:ir.ui.view,arch_db:base.view_country_state_form
+#: model:ir.ui.view,arch_db:base.view_country_state_tree
+#: model:ir.ui.view,arch_db:base.view_partner_address_form
+#: model:ir.ui.view,arch_db:base.view_partner_form
+#: model:ir.ui.view,arch_db:base.view_res_bank_form
+msgid "State"
+msgstr "Županija"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_country_state_code
+msgid "State Code"
+msgstr "Šifra županije"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_country_state_name
+msgid "State Name"
+msgstr "Naziv županije"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_country_state_ids
+msgid "States"
+msgstr "Županije"

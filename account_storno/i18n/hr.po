@@ -1,0 +1,77 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_storno
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-09 07:48+0000\n"
+"PO-Revision-Date: 2017-01-09 08:51+0100\n"
+"Last-Translator: Davor Bojkić <davor.bojkic@storm.hr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. module: account_storno
+#: selection:account.journal,posting_policy:0
+msgid "Contra (debit<->credit)"
+msgstr "Kontra (debit<->kredit)"
+
+#. module: account_storno
+#: model:ir.model,name:account_storno.model_account_invoice
+msgid "Invoice"
+msgstr "Račun"
+
+#. module: account_storno
+#: model:ir.model,name:account_storno.model_account_invoice_refund
+msgid "Invoice Refund"
+msgstr "Računi odobrenja"
+
+#. module: account_storno
+#: model:ir.model,name:account_storno.model_account_journal
+msgid "Journal"
+msgstr "Dnevnik"
+
+#. module: account_storno
+#: model:ir.model,name:account_storno.model_account_move_line
+msgid "Journal Item"
+msgstr "Stavka dnevnika"
+
+#. module: account_storno
+#: constraint:account.move.line:0
+#: code:addons/account_storno/models/account_move.py:46
+#, python-format
+msgid ""
+"Negative credit or debit amount is not allowed for \"contra\" journal policy."
+msgstr ""
+"Negativan kredit ili debit iznos nije dozvoljen za \"kontra\" knjiženja."
+
+#. module: account_storno
+#: selection:account.journal,posting_policy:0
+msgid "Storno (-)"
+msgstr "Storno (-)"
+
+#. module: account_storno
+#: model:ir.model.fields,help:account_storno.field_account_journal_posting_policy
+msgid ""
+"Storno allows minus postings, Refunds are posted on the same journal/account "
+"* (-1).Contra doesn't allow negative posting. Refunds are posted by swapping "
+"credit and debit side."
+msgstr ""
+"Storno omogućuje negativna knjiženja, povrati i storna se knjiže na istoj "
+"dugovnoj/potražnoj strani sa (-) predznakom. KOntra ne dozvoljava negativna "
+"knjiženja. Povrati se knjiže na suprotnoj strani."
+
+#. module: account_storno
+#: model:ir.model.fields,field_description:account_storno.field_account_journal_posting_policy
+msgid "Storno or Contra"
+msgstr "Storno ili Kontra"
+
+#. module: account_storno
+#: sql_constraint:account.move.line:0
+msgid "Wrong credit or debit value in accounting entry !"
+msgstr "Pogrešna dugovna ili potražna vrijednost upisane stavke!"
